@@ -12,6 +12,5 @@ htmlcov/
 dist/
 build/
 *.egg-info/
-*.toml
 
 uwsgi.ini
