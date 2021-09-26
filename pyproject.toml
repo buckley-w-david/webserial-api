@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "webserial_api"
+version = "0.1.0"
+description = ""
+authors = ["David Buckley <david@davidbuckley.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+webserial = {git = "https://github.com/buckley-w-david/webserial.git"}
+Flask = "^2.0.1"
+uWSGI = "^2.0.19"
+Flask-HTTPAuth = "^4.4.0"
+Werkzeug = "^2.0.1"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.7b0"
+mypy = "^0.910"
+
+[tool.pyright]
+venvPath = "/home/david/.cache/pypoetry/virtualenvs/"
+venv = "webserial-api-QiZW4jcP-py3.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
